@@ -1,5 +1,4 @@
-# Item-Catalog-428
-# # Udacity Item Catalog Project
+# Udacity Item Catalog Project
 The 4th projects made as a part of Udacity Full Stack Web Development Nanodegree.
 Project represents a an application that provides a list of items as well as a user registration and authentication system.
 Registered users have the ability to use CRUD functionallity, or `post`, `delete`, `edit`.
@@ -8,7 +7,7 @@ For User Registration `Google+ Authentification and Authorization service`. `Loc
 * Run the project through Flask-env
     `source Flask-env/bin/activate`
 * Run the python script `application.py` with the following command:
-     `Python populate_book.py`
+    `Python populate_book.py`
     `python application.py`
 * Access an application by visiting `http://localhost:5000/` locally 
 # BookShelf Item Catalog Application
@@ -22,13 +21,8 @@ Each BookItem contains the following attributes: ID (Primary Key), Name, Author,
 Python file `populate_book.py` was used to add items to the `new_book_catalog.db` file.
 
 ## Demonstration
-Screenshots of some pages along with their URL adresses are shown below
-![http://localhost:5000/](https://pp.userapi.com/c840625/v840625567/36dbb/dBLiYk0Xhho.jpg) 
-http://localhost:5000/ 
+ http://localhost:5000/ or http://localhost5000/genres (authorized)
 ![http://localhost:5000/](https://pp.userapi.com/c840625/v840625567/36d77/DBWi1F8bC9c.jpg) 
-http://localhost:5000/ 
+http://localhost:5000/ or http://localhost:5000/genres (not authorized used)
 ![http://localhost:5000/genres/1/books](https://pp.userapi.com/c840625/v840625567/36d81/XElRvk0k0o4.jpg) 
 http://localhost:5000/genres/1/books (authorized) shows all books of Poetry (GenreId=1) genre for an authorized user.
-## License
-Was built as a part of [Udacity Full Stack Web Developer Nanodegree Program](https://www.udacity.com/)
-
