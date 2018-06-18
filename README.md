@@ -19,10 +19,3 @@ however, only creator can edit or delete created Genres and BookItems. Not regis
 Each BookItem contains the following attributes: ID (Primary Key), Name, Author, Description, Price, Type (either eBook or HardCopy), GenreID(ForeignKey), UserID(ForeignKey), while Genre has ID (Primary Key), Description, UserID (ForeignKey), User has ID (Primary), Name, Email and Picture that are taken from Google+ account after authentification. 
 
 Python file `populate_book.py` was used to add items to the `new_book_catalog.db` file.
-
-## Demonstration
- http://localhost:5000/ or http://localhost5000/genres (authorized)
-![http://localhost:5000/](https://pp.userapi.com/c840625/v840625567/36d77/DBWi1F8bC9c.jpg) 
-http://localhost:5000/ or http://localhost:5000/genres (not authorized used)
-![http://localhost:5000/genres/1/books](https://pp.userapi.com/c840625/v840625567/36d81/XElRvk0k0o4.jpg) 
-http://localhost:5000/genres/1/books (authorized) shows all books of Poetry (GenreId=1) genre for an authorized user.
