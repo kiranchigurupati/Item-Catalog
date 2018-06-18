@@ -1,4 +1,4 @@
-# Udacity Item Catalog Project
+# Item Catalog Project-428
 The 4th projects made as a part of Udacity Full Stack Web Development Nanodegree.
 Project represents a an application that provides a list of items as well as a user registration and authentication system.
 Registered users have the ability to use CRUD functionallity, or `post`, `delete`, `edit`.
