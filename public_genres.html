@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+
+<body>
+    <div class="log" style="float:right; margin-right:50px">
+        <button onclick="location.href = '{{url_for('showLogin')}}'" class="btn btn-success">
+            Log in <span class="glyphicon glyphicon-log-in"></span>
+        </button>
+    </div>
+    <h1 align="center"><em>Genres</em></h1>
+    <p align="center"> Here you can find all literature genres that have already been added to BookShelf </p>
+
+    {% for genre in genres %}
+    <div class="panel" style="margin-left:30px; margin-right:30px; background:#b3ffd9; font-family:\" Times New Roman\ ", Times, serif">
+        <a href="{{url_for('showBooks', genre_id = genre.id)}}">
+            <h3>{{genre.name}}</h3>
+        </a>
+        <p>{{genre.description}}</p>
+        <hr>
+    </div>
+
+
+
+    {% endfor %}
+
+    </div>
+</body>
+
+</html>
